@@ -1,0 +1,124 @@
+
+
+* {
+    margin: 0px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+header {
+    background-color: #1f2937;
+    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 80px;
+
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    padding-right: 15%;
+    font-size: small;
+    width: 50%;
+}
+
+.logo {
+    width: 50px;
+    border-radius: 60%;
+}
+
+.logo_container {
+    width: 50%;
+    padding-left: 15%;
+}
+
+.main_header {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+#h1_container {
+    flex-grow: 2;
+    text-align: start;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+#p_button {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+button {
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+p {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.flex_container {       /*probabilmente evitabile ma fa niente*/
+    display: flex;
+    flex-grow: 1;
+}
+
+#button_container {
+    height: fit-content;
+}
+
+.left_container_header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 15%;
+    width: 50%;
+}
+
+
+
+
+
+
+.right_container_header {
+    display: flex;
+    justify-content: center;
+    padding-right: 15%;
+    width: 50%;
+}
+
+.right_container_header img {
+    max-height: 300px;
+}
+
