@@ -69,6 +69,7 @@ ul {
     display: flex;
     flex-grow: 1;
     flex-direction: column;
+    gap: 16px;
 }
 
 button {
@@ -80,14 +81,13 @@ button {
     padding: 10px;
 }
 
-p {
-    font-size: 20px;
-    margin-bottom: 16px;
-}
 
 .flex_container {       /*probabilmente evitabile ma fa niente*/
     display: flex;
     flex-grow: 1;
+    font-size: 20px;
+    
+
 }
 
 #button_container {
