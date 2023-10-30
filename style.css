@@ -151,6 +151,8 @@ main {
     display: flex;
     justify-content: center;
     gap: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 .cornice {
     width: 200px;
@@ -170,10 +172,17 @@ main {
 
 }
 
+.container_coppia_cornice-descrizione {     /*questo, insieme al padding della citazione, era nella speranza di rendere le 2 sezioni responsive e con la stessa spaziatura. non ho risolto, lo risolverò più avanti.*/
+    display: flex;
+    flex-direction: column;
+}
+
 .quote_container {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+
 
 }
 
@@ -182,9 +191,18 @@ main {
     justify-content: start;
     font-size: 36px;
     font-style: italic;
+    color: #1f2937;
 }
 
 .quote_author {
     display: flex;
-    justify-content: end;
+    align-self: end;
+    font-weight: bolder;
+    font-size:larger;
 }
+
+.quote_section {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
