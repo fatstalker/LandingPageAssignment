@@ -1,0 +1,1 @@
+fix spaces in header, particularly between the title and the paragraph. When the rendering is narrow enough it looks fine, but when it widen the space becomes too much.
