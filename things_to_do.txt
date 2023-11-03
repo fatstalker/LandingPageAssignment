@@ -2,3 +2,4 @@ fix spaces in header, particularly between the title and the paragraph. When the
 the padding in the footer doesn't go to the very end of the page with extremely narrow screens.
 the boxes section doesn't have side margins with narrow screens.
 quote section too isn't perfect with narrow screens
+the buttons are not interactive, only the links inside them are.
